@@ -147,7 +147,7 @@ export LIBRARY_PATH=/app/.heroku/vendor/lib:$BUILD_DIR/.heroku/vendor/lib:/app/.
 export LD_LIBRARY_PATH=/app/.heroku/vendor/lib:$BUILD_DIR/.heroku/vendor/lib:/app/.heroku/python/lib:$LD_LIBRARY_PATH
 export PKG_CONFIG_PATH=/app/.heroku/vendor/lib/pkg-config:$BUILD_DIR/.heroku/vendor/lib/pkg-config:/app/.heroku/python/lib/pkg-config:$PKG_CONFIG_PATH
 
-PYTHONPATH= /app
+PYTHONPATH='/app'
 export  PYTHONPATH '/app/.apt/usr/lib/python2.7/dist-packages/:$PYTHONPATH'
 
 # Switch to the repo's context.
